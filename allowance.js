@@ -7,7 +7,7 @@ const { Client, PrivateKey, AccountCreateTransaction, AccountBalanceQuery, Hbar,
 async function main() {
 
 const myAccountId = AccountId.fromString("0.0.4575677");
-const myPrivateKey = PrivateKey.fromString("3030020100300706052b8104000a0422042055ed90d4c7714cfbc69c7eee49199282433e04fa07de7694879ed0feafd0ebc8");
+const myPrivateKey = PrivateKey.fromString("add your key ");
 
 const client = Client.forTestnet()
 
